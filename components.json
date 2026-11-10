@@ -116,7 +116,7 @@
           },
           {
             "id": "cvMenuPedido",
-            "label": "Ver formulario de pedido",
+            "label": "Llenar formulario de envío",
             "href": "/pedido"
           }
         ],

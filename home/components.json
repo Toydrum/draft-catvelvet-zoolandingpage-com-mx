@@ -1682,7 +1682,7 @@
       "type": "link",
       "config": {
         "href": "/pedido",
-        "text": "Ver formulario de pedido  →",
+        "text": "Llenar formulario de envío  →",
         "classes": "ank-display-inlineMINflex ank-alignItems-center ank-justifyContent-center ank-gap-12px ank-minHeight-52px ank-paddingInline-28px ank-paddingBlock-14px ank-borderRadius-40px ank-bg-accentColor ank-color-white ank-border-0 ank-fontSize-1rem ank-fontWeight-500 ank-textDecoration-none ank-cursor-pointer ank-transition-transform__200ms ank-transformHover-translateYSDMIN2pxED ank-outlineOffset-5px",
         "scrollRestoration": {
           "mode": "top"
