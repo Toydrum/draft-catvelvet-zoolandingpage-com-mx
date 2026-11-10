@@ -73,13 +73,11 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-flex-1 ank-minWidth-0 ank-paddingBlock-32px ank-paddingBlock-md-56px",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-minWidth-0 ank-paddingTop-32px ank-paddingTop-md-56px ank-gridColumnStart-md-1 ank-gridRowStart-md-1 ank-alignSelf-md-end",
         "components": [
           "cvHeroEyebrow",
           "cvHeroTitle",
-          "cvHeroIntro",
-          "cvHeroCta",
-          "cvHeroPrice"
+          "cvHeroIntro"
         ]
       }
     },
@@ -103,9 +101,21 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-flex-1 ank-minWidth-0 ank-width-100per ank-maxWidth-560px",
+        "classes": "ank-width-100per ank-maxWidth-560px ank-minWidth-0 ank-justifySelf-center ank-alignSelf-center ank-gridColumnStart-md-2 ank-gridRowStart-md-1 ank-gridRowEnd-md-3",
         "components": [
           "cvHeroImage"
+        ]
+      }
+    },
+    {
+      "id": "cvHeroActions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px ank-alignItems-center ank-alignItems-md-start ank-paddingBottom-md-32px ank-gridColumnStart-md-1 ank-gridRowStart-md-2",
+        "components": [
+          "cvHeroCta",
+          "cvHeroPrice"
         ]
       }
     },
@@ -114,10 +124,11 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-flexDirection-md-row ank-gap-32px ank-gap-md-64px ank-alignItems-center ank-gap-16px ank-gap-md-32px",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-columnGap-md-48px ank-rowGap-20px",
         "components": [
           "cvHeroCopy",
-          "cvHeroVisual"
+          "cvHeroVisual",
+          "cvHeroActions"
         ]
       }
     },
@@ -268,7 +279,7 @@
         "id": "cv-product-gallery",
         "ariaLabel": "Galería del producto con tres vistas",
         "initialValues": {
-          "view": "top"
+          "view": "side"
         },
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-16px ank-flex-1 ank-minWidth-0 ank-width-100per ank-maxWidth-520px",
         "components": [
@@ -349,12 +360,33 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-flex-1 ank-minWidth-0",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px ank-minWidth-0 ank-gridColumnStart-md-2 ank-gridRowStart-md-1",
         "components": [
           "cvProductEyebrow",
           "cvProductTitle",
           "cvProductName",
-          "cvProductIntro",
+          "cvProductIntro"
+        ]
+      }
+    },
+    {
+      "id": "cvProductGalleryColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-minWidth-0 ank-maxWidth-520px ank-justifySelf-center ank-gridColumnStart-md-1 ank-gridRowStart-md-1 ank-gridRowEnd-md-3",
+        "components": [
+          "cvProductGallery"
+        ]
+      }
+    },
+    {
+      "id": "cvProductDetails",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-minWidth-0 ank-gridColumnStart-md-2 ank-gridRowStart-md-2",
+        "components": [
           "cvTechnicalFacts",
           "cvProductPrice",
           "cvOrderCta",
@@ -367,10 +399,11 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexDirection-column ank-flexDirection-md-row ank-gap-32px ank-gap-md-64px ank-alignItems-center",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-columnGap-md-48px ank-rowGap-24px ank-alignItems-start",
         "components": [
-          "cvProductGallery",
-          "cvProductCopy"
+          "cvProductCopy",
+          "cvProductGalleryColumn",
+          "cvProductDetails"
         ]
       }
     },
@@ -433,7 +466,7 @@
         "height": 1254,
         "loading": "lazy",
         "decoding": "async",
-        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-8px"
+        "classes": "ank-display-none ank-display-sm-block ank-width-100per ank-height-auto ank-borderRadius-8px"
       }
     },
     {
@@ -508,7 +541,7 @@
         "height": 1254,
         "loading": "lazy",
         "decoding": "async",
-        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-8px"
+        "classes": "ank-display-none ank-display-sm-block ank-width-100per ank-height-auto ank-borderRadius-8px"
       }
     },
     {
@@ -583,7 +616,7 @@
         "height": 1254,
         "loading": "lazy",
         "decoding": "async",
-        "classes": "ank-display-block ank-width-100per ank-height-auto ank-borderRadius-8px"
+        "classes": "ank-display-none ank-display-sm-block ank-width-100per ank-height-auto ank-borderRadius-8px"
       }
     },
     {
