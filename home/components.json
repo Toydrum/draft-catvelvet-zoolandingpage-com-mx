@@ -134,30 +134,105 @@
       }
     },
     {
-      "id": "cvBenefit1",
+      "id": "cvBenefit1Icon",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23432A37%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m12%202%209%204.5v11L12%2022l-9-4.5v-11L12%202Z%20M3%206.5l9%204.5%209-4.5%20M12%2011v11%20M7.5%204.25l9%204.5%22%2F%3E%3C%2Fsvg%3E",
+        "alt": "",
+        "width": 28,
+        "height": 28,
+        "loading": "eager",
+        "classes": "ank-display-block"
+      }
+    },
+    {
+      "id": "cvBenefit1Label",
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "◇  Producto + orientación",
+        "text": "Producto + orientación",
+        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "cvBenefit1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-28px__1fr ank-alignItems-center ank-gap-12px",
+        "components": [
+          "cvBenefit1Icon",
+          "cvBenefit1Label"
+        ]
+      }
+    },
+    {
+      "id": "cvBenefit2Icon",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23432A37%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M20.9%2011.9a8.9%208.9%200%200%201-13%207.9L3%2021l1.3-4.7A8.9%208.9%200%201%201%2020.9%2011.9Z%22%2F%3E%3Cpath%20fill%3D%22%23432A37%22%20stroke%3D%22none%22%20d%3D%22M8.4%207.2c-.7.1-1.2.7-1.2%201.5%200%202.5%203.7%206.6%206.8%207.1%201%20.2%202.2-.2%202.5-1.1l.2-.9c0-.2-.1-.3-.3-.4l-2.2-1.1c-.2-.1-.4%200-.5.1l-.8%201c-1.3-.4-2.8-1.8-3.3-3.1l.7-.8c.1-.2.2-.3.1-.5l-.9-2c-.1-.2-.3-.3-.5-.3Z%22%2F%3E%3C%2Fsvg%3E",
+        "alt": "",
+        "width": 28,
+        "height": 28,
+        "loading": "eager",
+        "classes": "ank-display-block"
+      }
+    },
+    {
+      "id": "cvBenefit2Label",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Comprobante por WhatsApp",
         "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
       }
     },
     {
       "id": "cvBenefit2",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-28px__1fr ank-alignItems-center ank-gap-12px",
+        "components": [
+          "cvBenefit2Icon",
+          "cvBenefit2Label"
+        ]
+      }
+    },
+    {
+      "id": "cvBenefit3Icon",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23432A37%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M2%2017V5h12v12%20M14%208h4l4%204v5h-2%20M2%2017h2m4%200h8%20M14%2012h8%22%2F%3E%3Ccircle%20cx%3D%226%22%20cy%3D%2217%22%20r%3D%222%22%2F%3E%3Ccircle%20cx%3D%2218%22%20cy%3D%2217%22%20r%3D%222%22%2F%3E%3C%2Fsvg%3E",
+        "alt": "",
+        "width": 28,
+        "height": 28,
+        "loading": "eager",
+        "classes": "ank-display-block"
+      }
+    },
+    {
+      "id": "cvBenefit3Label",
       "type": "text",
       "config": {
         "tag": "p",
-        "text": "↗  Comprobante por WhatsApp",
+        "text": "Envíos a todo México",
         "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
       }
     },
     {
       "id": "cvBenefit3",
-      "type": "text",
+      "type": "container",
       "config": {
-        "tag": "p",
-        "text": "□  Envíos a todo México",
-        "classes": "ank-m-0 ank-fontSize-1rem ank-fontWeight-400 ank-lineHeight-1_65 ank-color-textColor ank-fontSize-0_9rem"
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-28px__1fr ank-alignItems-center ank-gap-12px",
+        "components": [
+          "cvBenefit3Icon",
+          "cvBenefit3Label"
+        ]
       }
     },
     {
@@ -165,7 +240,7 @@
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-flex ank-flexWrap-wrap ank-justifyContent-spaceMINaround ank-gap-20px",
+        "classes": "ank-width-100per ank-maxWidth-1200px ank-marginInline-auto ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-sm-repeatSD3COM1frED ank-gap-16px",
         "components": [
           "cvBenefit1",
           "cvBenefit2",
@@ -913,7 +988,20 @@
       }
     },
     {
-      "id": "cvTopic1",
+      "id": "cvTopic1Icon",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%237C3049%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%205.5C9%203%205.5%202.7%202%204.5v15c3.5-1.8%207-1.5%2010%201%203-2.5%206.5-2.8%2010-1v-15C18.5%202.7%2015%203%2012%205.5Zm0%200v15%22%2F%3E%3C%2Fsvg%3E",
+        "alt": "",
+        "width": 28,
+        "height": 28,
+        "loading": "eager",
+        "classes": "ank-display-block"
+      }
+    },
+    {
+      "id": "cvTopic1Label",
       "type": "text",
       "config": {
         "tag": "p",
@@ -922,7 +1010,32 @@
       }
     },
     {
-      "id": "cvTopic2",
+      "id": "cvTopic1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-28px__1fr ank-alignItems-center ank-gap-12px",
+        "components": [
+          "cvTopic1Icon",
+          "cvTopic1Label"
+        ]
+      }
+    },
+    {
+      "id": "cvTopic2Icon",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%237C3049%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M21.5%2011.3c0%204.1-4.2%207.5-9.3%207.5-1.2%200-2.3-.2-3.4-.5L3%2021l1.6-4.7a6.6%206.6%200%200%201-1.8-5C2.8%207.2%207%203.8%2012.2%203.8s9.3%203.4%209.3%207.5Z%22%2F%3E%3C%2Fsvg%3E",
+        "alt": "",
+        "width": 28,
+        "height": 28,
+        "loading": "eager",
+        "classes": "ank-display-block"
+      }
+    },
+    {
+      "id": "cvTopic2Label",
       "type": "text",
       "config": {
         "tag": "p",
@@ -931,7 +1044,32 @@
       }
     },
     {
-      "id": "cvTopic3",
+      "id": "cvTopic2",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-28px__1fr ank-alignItems-center ank-gap-12px",
+        "components": [
+          "cvTopic2Icon",
+          "cvTopic2Label"
+        ]
+      }
+    },
+    {
+      "id": "cvTopic3Icon",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%237C3049%22%20stroke-width%3D%221.25%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%2020.8%203.8%2013a5.4%205.4%200%200%201%207.6-7.7l.6.6.6-.6a5.4%205.4%200%200%201%207.6%207.7L12%2020.8Z%22%2F%3E%3C%2Fsvg%3E",
+        "alt": "",
+        "width": 28,
+        "height": 28,
+        "loading": "eager",
+        "classes": "ank-display-block"
+      }
+    },
+    {
+      "id": "cvTopic3Label",
       "type": "text",
       "config": {
         "tag": "p",
@@ -940,11 +1078,23 @@
       }
     },
     {
+      "id": "cvTopic3",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-28px__1fr ank-alignItems-center ank-gap-12px",
+        "components": [
+          "cvTopic3Icon",
+          "cvTopic3Label"
+        ]
+      }
+    },
+    {
       "id": "cvTopics",
       "type": "container",
       "config": {
         "tag": "div",
-        "classes": "ank-display-flex ank-flexWrap-wrap ank-gap-20px ank-paddingBlock-16px",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-lg-repeatSD3COM1frED ank-gap-16px ank-paddingBlock-16px",
         "components": [
           "cvTopic1",
           "cvTopic2",
@@ -1152,15 +1302,6 @@
       }
     },
     {
-      "id": "cvAgendaNumber1",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "01",
-        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2rem ank-color-accentColor"
-      }
-    },
-    {
       "id": "cvAgendaStepTitle1",
       "type": "text",
       "config": {
@@ -1185,19 +1326,9 @@
         "tag": "div",
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-8px",
         "components": [
-          "cvAgendaNumber1",
           "cvAgendaStepTitle1",
           "cvAgendaStepText1"
         ]
-      }
-    },
-    {
-      "id": "cvAgendaNumber2",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "02",
-        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2rem ank-color-accentColor"
       }
     },
     {
@@ -1225,19 +1356,9 @@
         "tag": "div",
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-8px",
         "components": [
-          "cvAgendaNumber2",
           "cvAgendaStepTitle2",
           "cvAgendaStepText2"
         ]
-      }
-    },
-    {
-      "id": "cvAgendaNumber3",
-      "type": "text",
-      "config": {
-        "tag": "p",
-        "text": "03",
-        "classes": "ank-fontFamily-GeorgiaCOMserif ank-fontWeight-400 ank-letterSpacing-MIN0_03em ank-m-0 ank-fontSize-2rem ank-color-accentColor"
       }
     },
     {
@@ -1265,7 +1386,6 @@
         "tag": "div",
         "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-8px",
         "components": [
-          "cvAgendaNumber3",
           "cvAgendaStepTitle3",
           "cvAgendaStepText3"
         ]
